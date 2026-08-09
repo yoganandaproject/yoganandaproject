@@ -1,30 +1,33 @@
-## Hi there 👋
+# Yogananda Project
 
-# Yogananda Project — Purpose and Scope
+This repository hosts a GitHub Pages-ready static website for documenting Paramhansa Yogananda's public-domain works, historically verifiable images and media, and a growing research database of his direct disciples, family members, gurus, their families, their disciples, friends, colleagues, and related publications.
 
-Purpose
-This project aims to create a website and open resource that catalogs Paramhansa Yogananda’s direct disciples, their works, Yogananda’s family lineage (including his gurus), and publications and stories by Yogananda, his direct disciples, and people who knew them.
+## Phase 1
 
-Scope
-- Catalog all of Paramhansa Yogananda’s direct disciples and biographical details where available.
-- Index and link all publications by Yogananda and his direct disciples.
-- Curate and present verified historical content, stories, and media related to Yogananda and his lineage.
-- Provide visualizations and compiled historical datasets to help researchers and the public explore the material.
+Phase 1 establishes the site's public foundation:
 
-What’s included in the repository
-- Source code for the website (HTML, CSS, JavaScript) — licensed under MIT (see LICENSE).
-- Written content, compiled historical data, media arrangements, and visualizations — licensed under CC BY‑SA 4.0 (see LICENSE-CC-BY-SA-4.0).
+- a clear project homepage
+- a starter directory of direct disciples
+- clear inclusion of family and guru lineage research
+- collection pages for works, media, and research methods
+- a simple static structure that can grow without a build step
 
-How to contribute
-- If you’re contributing code (features, bug fixes), submit a PR and indicate “Code — MIT” in the PR description.
-- If you’re contributing content/data (biographies, transcriptions, datasets), submit a PR and indicate “Content — CC BY‑SA 4.0” in the PR description.
-- Add a short header to files you add or edit indicating whether they are licensed under MIT (code) or CC BY‑SA 4.0 (content).
-- For large content imports or datasets, open an issue first describing the source, provenance, and licensing of the material.
+## Repository structure
 
-Roadmap (short)
-- Phase 1: Build a searchable database of direct disciples and core bibliographic records.
-- Phase 2: Add timelines, family/guru lineage visualizations, and publication scans/indexes. Phase 2 will also include incorporating all of Yogananda’s images and works that are in the public domain, as well as any other public-domain images and works originating from his direct disciples.
-- Phase 3: Community contributions, verification workflows, and public site deployment.
+- `index.html` — homepage and phase-one overview
+- `disciples.html` — starter direct-disciples directory
+- `collections.html` — works, media, lineage, and related-person collections
+- `methodology.html` — sourcing, verification, and public-domain standards
+- `assets/style.css` — shared site styles
 
-Contact / Questions
-Please contact: yoganandaproject (at) gmail dot com
+## Licensing
+
+- **Code**: MIT (`LICENSE`)
+- **Content, compiled data, and visual arrangements**: CC BY-SA 4.0 (`LICENSE-CC-BY-SA-4.0`)
+
+## Contribution notes
+
+- Use verifiable sources and keep provenance notes for every factual addition.
+- Only add media and texts that are confirmed public domain or otherwise clearly reusable.
+- Keep code contributions separate from large historical content imports whenever possible.
+- Preserve relationship data between family lines, guru lineages, and disciple networks whenever sources support it.
