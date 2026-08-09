@@ -25,6 +25,12 @@ Phase 1 establishes the site's public foundation:
 - **Code**: MIT (`LICENSE`)
 - **Content, compiled data, and visual arrangements**: CC BY-SA 4.0 (`LICENSE-CC-BY-SA-4.0`)
 
+## Project disclaimer
+
+- The website is intended to remain **non-commercial** and is maintained as a public-interest, open-source archive project.
+- The project attempts in good faith to track public-domain or otherwise reusable material, but rights determinations and historical details may be incomplete or mistaken and should be independently verified where necessary.
+- The public repository for the site is: https://github.com/yoganandaproject/yoganandaproject
+
 ## Contribution notes
 
 - Use verifiable sources and keep provenance notes for every factual addition.
