@@ -95,6 +95,10 @@ h1 {
   padding: 3rem 0;
 }
 
+.section-tight {
+  padding-top: 1.5rem;
+}
+
 .section-alt {
   background: var(--surface-alt);
 }
@@ -103,6 +107,10 @@ h1 {
 .card-grid {
   display: grid;
   gap: 1.5rem;
+}
+
+.biography-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .grid-two {
@@ -152,6 +160,49 @@ th {
 
 .prose {
   max-width: 52rem;
+}
+
+.page-links,
+.facts-list {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 1rem 0 0;
+  list-style: none;
+}
+
+.facts-list strong {
+  display: inline-block;
+  min-width: 8rem;
+}
+
+.placeholder-box {
+  border: 2px dashed var(--border);
+  border-radius: 18px;
+  padding: 1rem;
+  background: rgba(255, 253, 248, 0.7);
+}
+
+.media-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.media-card img,
+.media-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+}
+
+.media-figure {
+  margin: 0;
+}
+
+.media-figure figcaption {
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .site-footer {
